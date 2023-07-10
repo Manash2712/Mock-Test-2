@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 20px;
+}
+
+.loader {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 33px;
+}
+
+.load-img {
+    height: 300px;
+    width: 450px;
+    background-color: rgba(136, 132, 132, 0.186);
+    border-radius: 10px;
+}
+
+.out {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    /* height: 300px; */
+    width: 470px;
+    /* gap: 30px; */
+}
