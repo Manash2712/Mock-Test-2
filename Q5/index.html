@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Test 2 Q5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form name="contactForm" onsubmit="return validateForm()" action="./out.html" method="">
+        <h2>Form</h2>
+        <div class="row">
+            <label>Full Name</label>
+            <input type="text" name="name">
+            <div class="error" id="nameErr"></div>
+        </div>
+        <div class="row">
+            <label>Email Address</label>
+            <input type="text" name="email">
+            <div class="error" id="emailErr"></div>
+        </div>
+        <div class="row">
+            <label>Mobile Number</label>
+            <input type="text" name="mobile" maxlength="10">
+            <div class="error" id="mobileErr"></div>
+        </div>
+        <div class="row">
+            <label>Password</label>
+            <input type="password" name="password">
+            <div class="error" id="passwordErr"></div>
+        </div>
+        <div class="row">
+            <label>Age</label>
+            <input type="text" name="age">
+            <div class="error" id="ageErr"></div>
+        </div>
+        <div class="row">
+            <label>Date</label>
+            <input type="date" name="date">
+            <div class="error" id="dateErr"></div>
+        </div>
+        <div class="row">
+            <label>Gender</label>
+            <div class="form-inline">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+            </div>
+            <div class="error" id="genderErr"></div>
+        </div>
+        <div class="row">
+            <label>Color</label>
+            <input type="color" name="color" class="color-input">
+            <div class="error" id="colorErr"></div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
